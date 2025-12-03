@@ -1,1 +1,5 @@
 rootProject.name = 'Transacciones'
+
+// Include the module directory so it can be built as a subproject
+include 'Transacciones'
+project(':Transacciones').projectDir = file('Transacciones')
